@@ -1,0 +1,38 @@
+To Do:
+
+Create function for checking argument count (takes argc)
+If failed, call a function outputting usage string
+Then return the error
+
+
+Function for storing the images
+
+Read the file function (takes the argv, returns the the pointer to the file)
+-> if null, call an error code and string function code error
+
+Function for fetching and checking the magic number
+-> return if binary, ascii or invalid
+-> if invalid, do the error code
+
+Function, deal with comments and output 1 if invalid, 
+-> main calls error output string manager
+
+Function for reading width, height, maxGray
+-> checks the constraints of these values
+-> return error code if error
+-> main deals with it
+
+Mallocing imageData function and dealing with it
+-> return error code if can't
+
+Reading the file function for actual values
+
+Checking writing file
+-> deal with errors
+
+Actually write the data
+
+Success output string
+-> success error code
+
+
